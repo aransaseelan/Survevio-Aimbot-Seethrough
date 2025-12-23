@@ -21,6 +21,14 @@ Tampermonkey/Greasemonkey userscript that adds a lightweight aimbot, ESP overlay
 3. Save; the `@match` rules already cover `survev.io` and `surviv.io`.
 4. Reload the game; open the console to confirm you see `Survev.io mod loaded`.
 
+## X-Ray 
+With X-ray:
+<img width="3420" height="1892" alt="image" src="https://github.com/user-attachments/assets/07d87096-0710-4c26-b6d2-2de4b0abdc3f" />
+
+Without X-ray:
+<img width="3420" height="1898" alt="image" src="https://github.com/user-attachments/assets/e25feba7-8dad-4c27-9b09-7087ef8f0a74" />
+
+
 ## Notes
 - Player detection is based on `drawImage` calls for loadout sprites and ignores very small/large or heavily distorted draws to skip HUD elements.
 - The aimbot emits `mousemove` events on the canvas, so pointer-lock should remain active for best results.
